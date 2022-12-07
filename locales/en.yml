@@ -511,12 +511,12 @@ strings:
 
       All the fund would be put into my services such as database, storage and hosting!
 
-      You can donate by contacting my owner here: @DivideProjectsBot
+      You can donate by contacting my owner here: @Noob_xd
     back_btn: Back
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is Alita.
+      Hey There! My name is Group Help Bot.
       I'm here to help you manage your groups!
       Commands available:
        × /start: Start the bot
@@ -536,8 +536,7 @@ strings:
     changed: "Language changed to <code>{lang_code}</code>"
     changelang: |-
       Here you can change language for the bot.
-
-      You can help us bring bot to more languages by helping on [Crowdin](https://crowdin.com/project/alita_robot)
+      
     correct_usage: |-
       <b>Correct Usage:</b>
       /lang or /setlang language-code
@@ -605,11 +604,11 @@ strings:
     commands_btn: Commands & Help
     group: "I'm alive :3"
     info_page: |-
-      • @Alita_Robot
+      • @engrouphelp_Bot
 
       <b>Version:</b> <i>{version}</i>
 
-      <b>Developers:</b> [Divkix](https://github.com/Divkix)
+      <b>Developers:</b> [NOOBXD](https://t.me/noob_xd)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
@@ -619,7 +618,7 @@ strings:
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
-      Join my [News Channel](http://t.me/AlitaRobotUpdates) to get information on all the latest updates.
+      Join my [News Channel](https://t.me/cyberassemble) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "Source Code"
   utils:
