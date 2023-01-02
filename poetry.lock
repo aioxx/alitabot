@@ -490,7 +490,7 @@ zstd = ["zstandard"]
 
 [[package]]
 name = "pyrogram"
-version = "2.0.69"
+version = "2.0.93"
 description = "Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
 category = "main"
 optional = false
@@ -739,7 +739,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "0f3000208ed702e1c7a80f07807378a1c97139fc64601c3d8c3a7e1e7ca0b2db"
+content-hash = "8fbb9b2aaf0fa3cb5f4bf96ff8abd229129b40ee6218fcc8443953bbfa0836e1"
 
 [metadata.files]
 aiofiles = [
@@ -1100,8 +1100,8 @@ pymongo = [
     {file = "pymongo-4.3.3.tar.gz", hash = "sha256:34e95ffb0a68bffbc3b437f2d1f25fc916fef3df5cdeed0992da5f42fae9b807"},
 ]
 pyrogram = [
-    {file = "Pyrogram-2.0.69-py3-none-any.whl", hash = "sha256:0ee27f2fed11150bc53b1cb935e033b970e9cb1c2b78eb63c7eb801d36f43426"},
-    {file = "Pyrogram-2.0.69.tar.gz", hash = "sha256:d61846ae966d2787ccf24277c7d94c227903ccad22c2f9f6d9630a393c6881f3"},
+    {file = "Pyrogram-2.0.93-py3-none-any.whl", hash = "sha256:f2aa017f454ee1b71b2ef15a56d9ee5114ad51626c5208407f4bb4a005b26d6a"},
+    {file = "Pyrogram-2.0.93.tar.gz", hash = "sha256:2a83e27644b51c705f47c4a472e3e7a6a0f470d7122f97b5e02ffd55d68c7d42"},
 ]
 pysocks = [
     {file = "PySocks-1.7.1-py27-none-any.whl", hash = "sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299"},
