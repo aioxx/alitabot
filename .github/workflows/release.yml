@@ -18,7 +18,7 @@ jobs:
   create-tag:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Create and Push Tag
       if: startsWith(github.ref, 'refs/tags/') != 'true' && github.event.inputs.tag != ''
       run: |-
@@ -39,7 +39,7 @@ jobs:
 
     steps:
       - name: Checkout current repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -106,7 +106,7 @@ jobs:
     needs: docker-build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
         with:
@@ -122,7 +122,7 @@ jobs:
       - create-tag
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
