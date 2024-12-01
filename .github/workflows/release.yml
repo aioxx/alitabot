@@ -124,7 +124,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: ${{ needs.docker-build.outputs.BUILD_VER }}
           tag_name: ${{ needs.docker-build.outputs.BUILD_VER }}
